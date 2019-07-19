@@ -1,0 +1,10 @@
+<nodes> <!-- The opening tag -->
+
+   <node id="0" x="0.0" y="0.0" type="traffic_light"/> <!-- def. of node "0" -->
+
+   <node id="west" x="-500.0" y="0.0" type="priority"/> <!-- def. of node "1" -->
+   <node id="east" x="+500.0" y="0.0" type="priority"/> <!-- def. of node "2" -->
+   <node id="north" x="0.0" y="-500.0" type="priority"/> <!-- def. of node "3" -->
+   <node id="south" x="0.0" y="+500.0" type="priority"/> <!-- def. of node "4" -->
+
+</nodes> <!-- The closing tag -->
