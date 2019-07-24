@@ -6,6 +6,7 @@ class ConnectionManager():
         self.next_msg_buffer = []
 
     def bind_simulator(self, sim):
+        print("here")
         self.simulator = sim
         #self.vehicle_list = self.simulator.vehicle_list
 
@@ -21,10 +22,14 @@ class ConnectionManager():
     @staticmethod
     def _connected(veh_id1, veh_id2):
         #determine if vehi1 is connected with vehi2
-        print("inherit and implement more realistic connected method")
+        # print("inherit and implement more realistic connected method")
         return True
 
     def step(self):
-        print("connection manager step")
+        # print("connection manager step")
+        self.connected_list = []
+        for vid in self.simulator.vehicle_list:
+            if self.id != vid and _connected(self.id, vid) == True:
+                self.connected_list.append(vid)
         self.msg_buffer = self.next_msg_buffer
         self.next_msg_buffer = []

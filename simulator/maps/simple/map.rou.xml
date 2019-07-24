@@ -1,8 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
 <routes>
-   <vType id="car" accel="0.8" decel="4.5" sigma="0.5" length="5" maxSpeed="70"/>
-
-   <vehicle id="0" type="car" depart="0" color="1,0,0">
-      <route edges="west_in east_out"/>
-   </vehicle>
-
+	<vType accel="0.8" decel="4.5" id="car" length="5" maxSpeed="40" sigma="0.5"/>
+	<vehicle color="1, 0, 0" depart="0" id="0" type="car">
+		<route edges="west_in east_out"/>
+	</vehicle>
+	<vehicle color="1, 0, 0" depart="0" id="1" type="car">
+		<route edges="west_in east_out"/>
+	</vehicle>
+	<vehicle color="1, 0, 0" depart="0" id="2" type="car">
+		<route edges="north_in south_out"/>
+	</vehicle>
+	<vehicle color="1, 0, 0" depart="0" id="3" type="car">
+		<route edges="north_in south_out"/>
+	</vehicle>
 </routes>
