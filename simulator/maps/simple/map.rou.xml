@@ -8,9 +8,237 @@
 		<route edges="west_in east_out"/>
 	</vehicle>
 	<vehicle color="1, 0, 0" depart="0" id="2" type="car">
-		<route edges="north_in south_out"/>
+		<route edges="west_in east_out"/>
 	</vehicle>
 	<vehicle color="1, 0, 0" depart="0" id="3" type="car">
+		<route edges="west_in east_out"/>
+	</vehicle>
+	<vehicle color="1, 0, 0" depart="0" id="4" type="car">
+		<route edges="west_in east_out"/>
+	</vehicle>
+	<vehicle color="1, 0, 0" depart="0" id="5" type="car">
+		<route edges="west_in east_out"/>
+	</vehicle>
+	<vehicle color="1, 0, 0" depart="0" id="6" type="car">
+		<route edges="west_in east_out"/>
+	</vehicle>
+	<vehicle color="1, 0, 0" depart="0" id="7" type="car">
+		<route edges="west_in east_out"/>
+	</vehicle>
+	<vehicle color="1, 0, 0" depart="0" id="8" type="car">
+		<route edges="west_in east_out"/>
+	</vehicle>
+	<vehicle color="1, 0, 0" depart="0" id="9" type="car">
+		<route edges="west_in east_out"/>
+	</vehicle>
+	<vehicle color="1, 0, 0" depart="0" id="10" type="car">
+		<route edges="west_in east_out"/>
+	</vehicle>
+	<vehicle color="1, 0, 0" depart="0" id="11" type="car">
+		<route edges="west_in east_out"/>
+	</vehicle>
+	<vehicle color="1, 0, 0" depart="0" id="12" type="car">
+		<route edges="west_in east_out"/>
+	</vehicle>
+	<vehicle color="1, 0, 0" depart="0" id="13" type="car">
+		<route edges="west_in east_out"/>
+	</vehicle>
+	<vehicle color="1, 0, 0" depart="0" id="14" type="car">
+		<route edges="west_in east_out"/>
+	</vehicle>
+	<vehicle color="1, 0, 0" depart="0" id="15" type="car">
+		<route edges="west_in east_out"/>
+	</vehicle>
+	<vehicle color="1, 0, 0" depart="0" id="16" type="car">
+		<route edges="west_in east_out"/>
+	</vehicle>
+	<vehicle color="1, 0, 0" depart="0" id="17" type="car">
+		<route edges="west_in east_out"/>
+	</vehicle>
+	<vehicle color="1, 0, 0" depart="0" id="18" type="car">
+		<route edges="west_in east_out"/>
+	</vehicle>
+	<vehicle color="1, 0, 0" depart="0" id="19" type="car">
+		<route edges="west_in east_out"/>
+	</vehicle>
+	<vehicle color="0, 1, 0" depart="0" id="20" type="car">
 		<route edges="north_in south_out"/>
+	</vehicle>
+	<vehicle color="0, 1, 0" depart="0" id="21" type="car">
+		<route edges="north_in south_out"/>
+	</vehicle>
+	<vehicle color="0, 1, 0" depart="0" id="22" type="car">
+		<route edges="north_in south_out"/>
+	</vehicle>
+	<vehicle color="0, 1, 0" depart="0" id="23" type="car">
+		<route edges="north_in south_out"/>
+	</vehicle>
+	<vehicle color="0, 1, 0" depart="0" id="24" type="car">
+		<route edges="north_in south_out"/>
+	</vehicle>
+	<vehicle color="0, 1, 0" depart="0" id="25" type="car">
+		<route edges="north_in south_out"/>
+	</vehicle>
+	<vehicle color="0, 1, 0" depart="0" id="26" type="car">
+		<route edges="north_in south_out"/>
+	</vehicle>
+	<vehicle color="0, 1, 0" depart="0" id="27" type="car">
+		<route edges="north_in south_out"/>
+	</vehicle>
+	<vehicle color="0, 1, 0" depart="0" id="28" type="car">
+		<route edges="north_in south_out"/>
+	</vehicle>
+	<vehicle color="0, 1, 0" depart="0" id="29" type="car">
+		<route edges="north_in south_out"/>
+	</vehicle>
+	<vehicle color="0, 1, 0" depart="0" id="30" type="car">
+		<route edges="north_in south_out"/>
+	</vehicle>
+	<vehicle color="0, 1, 0" depart="0" id="31" type="car">
+		<route edges="north_in south_out"/>
+	</vehicle>
+	<vehicle color="0, 1, 0" depart="0" id="32" type="car">
+		<route edges="north_in south_out"/>
+	</vehicle>
+	<vehicle color="0, 1, 0" depart="0" id="33" type="car">
+		<route edges="north_in south_out"/>
+	</vehicle>
+	<vehicle color="0, 1, 0" depart="0" id="34" type="car">
+		<route edges="north_in south_out"/>
+	</vehicle>
+	<vehicle color="0, 1, 0" depart="0" id="35" type="car">
+		<route edges="north_in south_out"/>
+	</vehicle>
+	<vehicle color="0, 1, 0" depart="0" id="36" type="car">
+		<route edges="north_in south_out"/>
+	</vehicle>
+	<vehicle color="0, 1, 0" depart="0" id="37" type="car">
+		<route edges="north_in south_out"/>
+	</vehicle>
+	<vehicle color="0, 1, 0" depart="0" id="38" type="car">
+		<route edges="north_in south_out"/>
+	</vehicle>
+	<vehicle color="0, 1, 0" depart="0" id="39" type="car">
+		<route edges="north_in south_out"/>
+	</vehicle>
+	<vehicle color="0, 0, 1" depart="0" id="40" type="car">
+		<route edges="east_in west_out"/>
+	</vehicle>
+	<vehicle color="0, 0, 1" depart="0" id="41" type="car">
+		<route edges="east_in west_out"/>
+	</vehicle>
+	<vehicle color="0, 0, 1" depart="0" id="42" type="car">
+		<route edges="east_in west_out"/>
+	</vehicle>
+	<vehicle color="0, 0, 1" depart="0" id="43" type="car">
+		<route edges="east_in west_out"/>
+	</vehicle>
+	<vehicle color="0, 0, 1" depart="0" id="44" type="car">
+		<route edges="east_in west_out"/>
+	</vehicle>
+	<vehicle color="0, 0, 1" depart="0" id="45" type="car">
+		<route edges="east_in west_out"/>
+	</vehicle>
+	<vehicle color="0, 0, 1" depart="0" id="46" type="car">
+		<route edges="east_in west_out"/>
+	</vehicle>
+	<vehicle color="0, 0, 1" depart="0" id="47" type="car">
+		<route edges="east_in west_out"/>
+	</vehicle>
+	<vehicle color="0, 0, 1" depart="0" id="48" type="car">
+		<route edges="east_in west_out"/>
+	</vehicle>
+	<vehicle color="0, 0, 1" depart="0" id="49" type="car">
+		<route edges="east_in west_out"/>
+	</vehicle>
+	<vehicle color="0, 0, 1" depart="0" id="50" type="car">
+		<route edges="east_in west_out"/>
+	</vehicle>
+	<vehicle color="0, 0, 1" depart="0" id="51" type="car">
+		<route edges="east_in west_out"/>
+	</vehicle>
+	<vehicle color="0, 0, 1" depart="0" id="52" type="car">
+		<route edges="east_in west_out"/>
+	</vehicle>
+	<vehicle color="0, 0, 1" depart="0" id="53" type="car">
+		<route edges="east_in west_out"/>
+	</vehicle>
+	<vehicle color="0, 0, 1" depart="0" id="54" type="car">
+		<route edges="east_in west_out"/>
+	</vehicle>
+	<vehicle color="0, 0, 1" depart="0" id="55" type="car">
+		<route edges="east_in west_out"/>
+	</vehicle>
+	<vehicle color="0, 0, 1" depart="0" id="56" type="car">
+		<route edges="east_in west_out"/>
+	</vehicle>
+	<vehicle color="0, 0, 1" depart="0" id="57" type="car">
+		<route edges="east_in west_out"/>
+	</vehicle>
+	<vehicle color="0, 0, 1" depart="0" id="58" type="car">
+		<route edges="east_in west_out"/>
+	</vehicle>
+	<vehicle color="0, 0, 1" depart="0" id="59" type="car">
+		<route edges="east_in west_out"/>
+	</vehicle>
+	<vehicle color="0, 0.5, 0.5" depart="0" id="60" type="car">
+		<route edges="south_in north_out"/>
+	</vehicle>
+	<vehicle color="0, 0.5, 0.5" depart="0" id="61" type="car">
+		<route edges="south_in north_out"/>
+	</vehicle>
+	<vehicle color="0, 0.5, 0.5" depart="0" id="62" type="car">
+		<route edges="south_in north_out"/>
+	</vehicle>
+	<vehicle color="0, 0.5, 0.5" depart="0" id="63" type="car">
+		<route edges="south_in north_out"/>
+	</vehicle>
+	<vehicle color="0, 0.5, 0.5" depart="0" id="64" type="car">
+		<route edges="south_in north_out"/>
+	</vehicle>
+	<vehicle color="0, 0.5, 0.5" depart="0" id="65" type="car">
+		<route edges="south_in north_out"/>
+	</vehicle>
+	<vehicle color="0, 0.5, 0.5" depart="0" id="66" type="car">
+		<route edges="south_in north_out"/>
+	</vehicle>
+	<vehicle color="0, 0.5, 0.5" depart="0" id="67" type="car">
+		<route edges="south_in north_out"/>
+	</vehicle>
+	<vehicle color="0, 0.5, 0.5" depart="0" id="68" type="car">
+		<route edges="south_in north_out"/>
+	</vehicle>
+	<vehicle color="0, 0.5, 0.5" depart="0" id="69" type="car">
+		<route edges="south_in north_out"/>
+	</vehicle>
+	<vehicle color="0, 0.5, 0.5" depart="0" id="70" type="car">
+		<route edges="south_in north_out"/>
+	</vehicle>
+	<vehicle color="0, 0.5, 0.5" depart="0" id="71" type="car">
+		<route edges="south_in north_out"/>
+	</vehicle>
+	<vehicle color="0, 0.5, 0.5" depart="0" id="72" type="car">
+		<route edges="south_in north_out"/>
+	</vehicle>
+	<vehicle color="0, 0.5, 0.5" depart="0" id="73" type="car">
+		<route edges="south_in north_out"/>
+	</vehicle>
+	<vehicle color="0, 0.5, 0.5" depart="0" id="74" type="car">
+		<route edges="south_in north_out"/>
+	</vehicle>
+	<vehicle color="0, 0.5, 0.5" depart="0" id="75" type="car">
+		<route edges="south_in north_out"/>
+	</vehicle>
+	<vehicle color="0, 0.5, 0.5" depart="0" id="76" type="car">
+		<route edges="south_in north_out"/>
+	</vehicle>
+	<vehicle color="0, 0.5, 0.5" depart="0" id="77" type="car">
+		<route edges="south_in north_out"/>
+	</vehicle>
+	<vehicle color="0, 0.5, 0.5" depart="0" id="78" type="car">
+		<route edges="south_in north_out"/>
+	</vehicle>
+	<vehicle color="0, 0.5, 0.5" depart="0" id="79" type="car">
+		<route edges="south_in north_out"/>
 	</vehicle>
 </routes>

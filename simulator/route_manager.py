@@ -21,7 +21,7 @@ class RouteManager():
         vType.setAttribute('length', "5")
         vType.setAttribute('maxSpeed', "40")
         root.appendChild(vType)
-        for i in range(0, 2):
+        for i in range(0, 20):
             vehicle = dom.createElement('vehicle')
             vehicle.setAttribute('id', str(i))
             vehicle.setAttribute('type', "car")
@@ -31,15 +31,35 @@ class RouteManager():
             route = dom.createElement('route')
             route.setAttribute('edges', "west_in east_out")
             vehicle.appendChild(route)
-        for i in range(2, 4):
+        for i in range(20, 40):
             vehicle = dom.createElement('vehicle')
             vehicle.setAttribute('id', str(i))
             vehicle.setAttribute('type', "car")
             vehicle.setAttribute('depart', "0")
-            vehicle.setAttribute('color', "1, 0, 0")
+            vehicle.setAttribute('color', "0, 1, 0")
             root.appendChild(vehicle)
             route = dom.createElement('route')
             route.setAttribute('edges', "north_in south_out")
+            vehicle.appendChild(route)
+        for i in range(40, 60):
+            vehicle = dom.createElement('vehicle')
+            vehicle.setAttribute('id', str(i))
+            vehicle.setAttribute('type', "car")
+            vehicle.setAttribute('depart', "0")
+            vehicle.setAttribute('color', "0, 0, 1")
+            root.appendChild(vehicle)
+            route = dom.createElement('route')
+            route.setAttribute('edges', "east_in west_out")
+            vehicle.appendChild(route)
+        for i in range(60, 80):
+            vehicle = dom.createElement('vehicle')
+            vehicle.setAttribute('id', str(i))
+            vehicle.setAttribute('type', "car")
+            vehicle.setAttribute('depart', "0")
+            vehicle.setAttribute('color', "0, 0.5, 0.5")
+            root.appendChild(vehicle)
+            route = dom.createElement('route')
+            route.setAttribute('edges', "south_in north_out")
             vehicle.appendChild(route)
         with open("simulator/maps/simple/map.rou.xml", 'w', encoding='utf-8') as f:
             dom.writexml(f, addindent='\t', newl='\n', encoding='utf-8')

@@ -23,7 +23,7 @@ class Simulator():
         # Some constants
         self.silent_time_threshold = 20  # If a group leader experiences a certain time period without any message, it will start a leader selection.
         self.selection_time_threshold = 2  # The time length for a leader selection proposer to select messages
-        self.leader_time_threshold = 200  # The time length for a leader. If the time is beyond the threshold, the leader will choose a new leader.
+        self.leader_time_threshold = 2000  # The time length for a leader. If the time is beyond the threshold, the leader will choose a new leader.
         self.should_print = False
         # For the log file
         self.log = open("log.txt", "w")
@@ -48,7 +48,8 @@ class Simulator():
         for vid in self.vehicle_list:
             self.vehicle_list[vid].get_lane_position()
         for vid in self.vehicle_list:
-            self.vehicle_list[vid].step()
+            if self.vehicle_list[vid].is_deleted == False:
+                self.vehicle_list[vid].step()
 
         if self.should_print == True:
             for i in range(100):
@@ -62,8 +63,8 @@ class Simulator():
                 for cvid in self.vehicle_list[vid].connected_list:
                     self.log.write(" " + str(cvid))
                 self.log.write("\n")
-                self.log.write("leader: " + str(self.vehicle_list[vid].leader) + "\n")
-                self.log.write("curr_msg_buffer: " + str(self.vehicle_list[vid].curr_msg_buffer) + "\n")
+                self.log.write("       leader: " + str(self.vehicle_list[vid].leader) + " silent_time: " + str(self.vehicle_list[vid].silent_time) + "\n")
+                self.log.write("       curr_msg_buffer: " + str(self.vehicle_list[vid].curr_msg_buffer) + "\n")
             for i in range(100):
                 self.log.write("-")
             self.log.write("\n")
@@ -104,7 +105,8 @@ class Vehicle():
         self.silent_time = 0    # The time length of no message received
         self.selection_time = 0    # The time length of a leader selection process
         self.leader_time = 0    # The time length after a vehicle becomes the leader
-        self.leader = -1
+        self.leader = "-1"
+        self.is_deleted = False
         self.is_proposer = False    # The vehicle is currently the proposer of a leader selection
         self.selection_start_time = 0    # The start time of the current leader selection
         
@@ -166,8 +168,7 @@ class Vehicle():
     def action(self):
         # If the vehicle is the leader
         if self.leader == self.id:
-            a = 1
-            # self.leader_action()
+            self.leader_action()
         # If the vehicle is the group leader
         elif self.is_group_leader == True:
             self.group_leader_action()
@@ -177,28 +178,44 @@ class Vehicle():
             # self.non_leader_action()
 
     def leader_action(self):
-        self.remain_leader_time -= 1
-        # Initialize a new leader selection
-        if self.remain_leader_time == 1:
-            initialization_message = str(2) + "," + str(self.simulator.time) + "," + str(self.id)
-            self.broadcast(initialization_message)
-            control_message = str(1) + "," + str(self.simulator.time) + "," + str(self.id)
-            self.broadcast(control_message)
-        # Select a new leader or abort the selection and change the traffic light
-        elif self.remain_leader_time == 0:
+        if self.leader_time == self.simulator.leader_time_threshold:
             successive_leader = self.choose_successive_leader()
+            print("successive_leader: " + successive_leader)
             # No matter whether the new leader exists or not, broadcast the result.
             control_message = str(1) + "," + str(self.simulator.time) + "," + str(successive_leader)
             self.broadcast(control_message)
-            # Change the traffic light
-            if self.direction == "east-west":
-                traci.trafficlight.setRedYellowGreenState("0", "rrrGGgrrrGGg")
-            elif self.direction == "north-south":
-                traci.trafficlight.setRedYellowGreenState("0", "GGgrrrGGgrrr")
-        # Broadcast the traffic control message
+            self.leader = "-1"
+            self.is_group_leader = False
+            self.is_deleted = True # The vehicle is no longer valid in the vehicle list.
+            # If there is no successive leader, change the traffic light. Give itself the green light.
+            if successive_leader == "-1":
+                self.simulator.log.write("time: " + str(self.simulator.time) + " vid: " + str(self.id) + " no successive leader\n")
+                self.simulator.should_print = True
+                # traci.trafficlight.setRedYellowGreenState("0", "GGGGGGGGGGGG")
+                if self.direction == "east-west":
+                    traci.trafficlight.setRedYellowGreenState("0", "rrrGGgrrrGGg")
+                    print("set to rrrGGgrrrGGg")
+                elif self.direction == "north-south":
+                    traci.trafficlight.setRedYellowGreenState("0", "GGgrrrGGgrrr")
+                    print("set to GGgrrrGGgrrr")
+            else:
+                self.simulator.log.write("time: " + str(self.simulator.time) + " vid: " + str(self.id) + " select " + successive_leader + " as the successive leader\n")
+                self.simulator.should_print = True
         else:
+            # Broadcast control message, tell others that itself is the leader
             control_message = str(1) + "," + str(self.simulator.time) + "," + str(self.id)
             self.broadcast(control_message)
+            if self.leader_time == 0:
+                # Give itself the red light
+                if self.direction == "east-west":
+                    traci.trafficlight.setRedYellowGreenState("0", "GGgrrrGGgrrr")
+                elif self.direction == "north-south":
+                    traci.trafficlight.setRedYellowGreenState("0", "rrrGGgrrrGGg")
+            elif self.leader_time == self.simulator.leader_time_threshold - 2:
+                # Initialize a new leader selection
+                initialization_message = str(2) + "," + str(self.simulator.time) + "," + str(self.id)
+                self.broadcast(initialization_message)
+        self.leader_time += 1
 
     def group_leader_action(self):
         # Broadcast control message. If there is control message, refresh silent_time and abort possible selection.
@@ -212,10 +229,13 @@ class Vehicle():
             self.selection_time += 1
             if self.selection_time == self.simulator.selection_time_threshold:
                 new_leader = self.choose_new_leader()
-                if new_leader != -1:
+                self.leader = new_leader
+                if new_leader != "-1":
                     self.simulator.log.write("time: " + str(self.simulator.time) + " vid: " + str(self.id) + " select " + new_leader + " as the leader\n")
-                    self.simulator.should_print = True
-                    self.leader = new_leader
+                    self.simulator.should_print = True  
+                    # If the vehicle selects itself as the new leader
+                    if self.leader == self.id:
+                        self.leader_time = 0
                     control_message = str(1) + "," + str(self.simulator.time) + "," + str(new_leader)
                     self.broadcast(control_message)
                 self.silent_time = 0
@@ -239,15 +259,20 @@ class Vehicle():
         self.broadcast_latest_control_message()
 
     def broadcast_latest_control_message(self):
+        former_leader = self.leader
         latest_control_message = ""
         for msg in self.curr_msg_buffer:
             message_parsed = re.split(",", msg)
             if message_parsed[0] == "1":
                 time = float(message_parsed[1])
                 if time > self.latest_control_msg_time:
-                    self.leader = int(message_parsed[2])
+                    self.leader = message_parsed[2]
                     self.latest_control_msg_time = time
                     latest_control_message = msg
+        # If the vehicle changes the leader, write it to the log.
+        if former_leader != self.leader:
+            self.simulator.log.write("time: " + str(self.simulator.time) + " vid: " + str(self.id) + " change its leader to " + self.leader + "\n")
+            self.simulator.should_print = True
         # If there is a new control message, broadcast it.
         if latest_control_message != "":
             self.broadcast(latest_control_message)
@@ -286,8 +311,8 @@ class Vehicle():
         for msg in self.curr_msg_buffer:
             message_parsed = re.split(",", msg)
             if message_parsed[0] == "3" and message_parsed[3] != self.direction:
-                return int(message_parsed[2])
-        return -1
+                return message_parsed[2]
+        return "-1"
 
     # The group leader selects the new successive leader
     def choose_new_leader(self):
@@ -309,6 +334,6 @@ class Vehicle():
                 else:
                     dict[direction] = [id, lane_position]
         if len(dict) <= 1:
-            return -1
+            return "-1"
         else:
             return dict[shortest_direction][0]
