@@ -1,0 +1,1951 @@
+time: 0.19000000000000003 vid: 0 initialize selection
+time: 0.19000000000000003 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 0.20000000000000004 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 137.68349120220944 connected_list:
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 137.6834768321812 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 0.4100000000000002 vid: 0 initialize selection
+time: 0.4100000000000002 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 0.4200000000000002 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 137.6302803300729 connected_list:
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 137.6299639709579 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 0.6300000000000003 vid: 0 initialize selection
+time: 0.6300000000000003 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 0.6400000000000003 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 137.5420695905197 connected_list:
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 137.5415472217955 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 0.8500000000000005 vid: 0 initialize selection
+time: 0.8500000000000005 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 0.8600000000000005 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 137.42106170325786 connected_list:
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 137.42113424302372 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 1.0700000000000007 vid: 0 initialize selection
+time: 1.0700000000000007 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 1.0800000000000007 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 137.26832907452615 connected_list:
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 137.26973509589573 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 1.290000000000001 vid: 0 initialize selection
+time: 1.290000000000001 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 1.300000000000001 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 137.08419179556068 connected_list:
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 137.08883880456705 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 1.5100000000000011 vid: 0 initialize selection
+time: 1.5100000000000011 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 1.5200000000000011 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 136.87036021314614 connected_list:
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 136.87922249161792 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 1.7300000000000013 vid: 0 initialize selection
+time: 1.7300000000000013 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 1.7400000000000013 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 136.62771753138372 connected_list:
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 136.64161092813353 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 1.9500000000000015 vid: 0 initialize selection
+time: 1.9500000000000015 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 1.9600000000000015 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 136.35519782732973 connected_list:
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 136.3761260042556 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 2.1699999999999977 vid: 0 initialize selection
+time: 2.1699999999999977 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 2.1799999999999975 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 136.0528711556307 connected_list:
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 136.08279951653472 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 2.389999999999993 vid: 0 initialize selection
+time: 2.389999999999993 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 2.399999999999993 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 135.72129150892306 connected_list:
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 135.76188675093906 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 2.6099999999999883 vid: 0 initialize selection
+time: 2.6099999999999883 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 2.619999999999988 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 135.36051595114574 connected_list:
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 135.4136632947482 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 2.8299999999999836 vid: 0 initialize selection
+time: 2.8299999999999836 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 2.8399999999999834 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 134.9700913093491 connected_list:
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 135.03626461287402 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 3.049999999999979 vid: 0 initialize selection
+time: 3.049999999999979 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 3.0599999999999787 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 134.5504218086105 connected_list:
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 134.63194279073159 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 3.2699999999999743 vid: 0 initialize selection
+time: 3.2699999999999743 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 3.279999999999974 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 134.10109849758538 connected_list:
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 134.20062954075905 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 3.4899999999999696 vid: 0 initialize selection
+time: 3.4899999999999696 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 3.4999999999999694 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 133.6231385635702 connected_list:
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 133.74024805968435 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 3.709999999999965 vid: 0 initialize selection
+time: 3.709999999999965 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 3.7199999999999647 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 133.11667328763912 connected_list:
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 133.2502080907801 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 3.92999999999996 vid: 0 initialize selection
+time: 3.92999999999996 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 3.93999999999996 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 132.58104365969334 connected_list:
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 132.73092744307317 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 4.149999999999956 vid: 0 initialize selection
+time: 4.149999999999956 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 4.159999999999956 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 132.0161884512332 connected_list:
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 132.18215166899068 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 4.369999999999951 vid: 0 initialize selection
+time: 4.369999999999951 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 4.379999999999951 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 131.4222959529675 connected_list:
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 131.6044322545372 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 4.589999999999947 vid: 0 initialize selection
+time: 4.589999999999947 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 4.599999999999946 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 130.7977728876046 connected_list:
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 130.99863284778363 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 4.809999999999942 vid: 0 initialize selection
+time: 4.809999999999942 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 4.819999999999942 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 130.14311603412358 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 130.36384871559596 connected_list:
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 137.69992019004908 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,4.809999999999942,0']
+----------------------------------------------------------------------------------------------------
+time: 5.029999999999937 vid: 0 initialize selection
+time: 5.029999999999937 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 5.039999999999937 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 129.4569456037076 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 129.7013862656583 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 137.67836253569683 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,5.029999999999937,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 137.6892995217818 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,5.029999999999937,2']
+----------------------------------------------------------------------------------------------------
+time: 5.2499999999999325 vid: 0 initialize selection
+time: 5.2499999999999325 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 5.259999999999932 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 128.74108810473882 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 129.01061118540616 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 137.62054187093707 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,5.2499999999999325,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 137.64290958738616 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,5.2499999999999325,2']
+----------------------------------------------------------------------------------------------------
+time: 5.469999999999928 vid: 0 initialize selection
+time: 5.469999999999928 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 5.479999999999928 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 127.99740824927933 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 128.29059843337518 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 137.5285069907688 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,5.469999999999928,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 137.561478273847 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,5.469999999999928,2']
+----------------------------------------------------------------------------------------------------
+time: 5.689999999999923 vid: 0 initialize selection
+time: 5.689999999999923 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 5.699999999999923 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 127.22344148860847 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 127.54200695891244 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 137.40345882230696 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,5.689999999999923,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 137.4474048633786 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,5.689999999999923,2']
+----------------------------------------------------------------------------------------------------
+time: 5.909999999999918 vid: 0 initialize selection
+time: 5.909999999999918 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 5.919999999999918 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 126.4196396647842 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 126.76384159395299 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 137.2465432837283 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,5.909999999999918,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 137.30253144372662 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,5.909999999999918,2']
+----------------------------------------------------------------------------------------------------
+time: 6.129999999999914 vid: 0 initialize selection
+time: 6.129999999999914 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 6.1399999999999135 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 125.58558625269077 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 125.95449505689024 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 137.06017085088874 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,6.129999999999914,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 137.12753233587787 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,6.129999999999914,2']
+----------------------------------------------------------------------------------------------------
+time: 6.349999999999909 vid: 0 initialize selection
+time: 6.349999999999909 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 6.359999999999909 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 124.72236859480006 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 125.11558393703282 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 136.8434498263064 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,6.349999999999909,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 136.92174826678118 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,6.349999999999909,2']
+----------------------------------------------------------------------------------------------------
+time: 6.569999999999904 vid: 0 initialize selection
+time: 6.569999999999904 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 6.579999999999904 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 123.82881732559709 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 124.24812679356542 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 136.59708845958036 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,6.569999999999904,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 136.68817009995018 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,6.569999999999904,2']
+----------------------------------------------------------------------------------------------------
+time: 6.7899999999999 vid: 0 initialize selection
+time: 6.7899999999999 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 6.7999999999998995 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 122.90619548684036 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 123.35246296459479 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 136.3206422232189 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,6.7899999999999,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 136.4262673370169 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,6.7899999999999,2']
+----------------------------------------------------------------------------------------------------
+time: 7.009999999999895 vid: 0 initialize selection
+time: 7.009999999999895 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 7.019999999999895 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 121.95437768698993 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 122.4255922558259 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 136.01376846658798 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,7.009999999999895,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 136.1361865571728 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,7.009999999999895,2']
+----------------------------------------------------------------------------------------------------
+time: 7.22999999999989 vid: 0 initialize selection
+time: 7.22999999999989 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 7.23999999999989 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 120.97212273605419 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 121.46999343127086 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 135.676327787488 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,7.22999999999989,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 135.81855020178597 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,7.22999999999989,2']
+----------------------------------------------------------------------------------------------------
+time: 7.449999999999886 vid: 0 initialize selection
+time: 7.449999999999886 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 7.459999999999885 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 119.96014722979582 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 120.48629697295488 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 135.31090495144497 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,7.449999999999886,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 135.47141778489552 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,7.449999999999886,2']
+----------------------------------------------------------------------------------------------------
+time: 7.669999999999881 vid: 0 initialize selection
+time: 7.669999999999881 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 7.679999999999881 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 118.919139211558 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 119.47353496119287 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 134.91658334540176 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,7.669999999999881,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 135.09358403639905 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,7.669999999999881,2']
+----------------------------------------------------------------------------------------------------
+time: 7.889999999999876 vid: 0 initialize selection
+time: 7.889999999999876 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 7.899999999999876 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 117.84906062962214 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 118.43076067391623 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 134.4922973202024 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,7.889999999999876,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 134.68717345907777 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,7.889999999999876,2']
+----------------------------------------------------------------------------------------------------
+time: 8.109999999999872 vid: 0 initialize selection
+time: 8.109999999999872 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 8.119999999999871 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 116.7518605817048 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 117.35957052717484 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 134.03844977556315 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,8.109999999999872,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 134.2516840146057 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,8.109999999999872,2']
+----------------------------------------------------------------------------------------------------
+time: 8.329999999999867 vid: 0 initialize selection
+time: 8.329999999999867 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 8.339999999999867 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 115.6267956431269 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 116.25871972927825 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 133.55508104680962 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,8.329999999999867,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 133.78723912098116 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,8.329999999999867,2']
+----------------------------------------------------------------------------------------------------
+time: 8.549999999999862 vid: 0 initialize selection
+time: 8.549999999999862 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 8.559999999999862 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 114.47402160516505 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 115.1286414729424 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 133.04258391956833 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,8.549999999999862,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 133.29226955587163 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,8.549999999999862,2']
+----------------------------------------------------------------------------------------------------
+time: 8.769999999999857 vid: 0 initialize selection
+time: 8.769999999999857 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 8.779999999999857 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 113.29257410203215 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 113.9705671218274 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 132.50100340607466 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,8.769999999999857,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 132.76931131429393 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,8.769999999999857,2']
+----------------------------------------------------------------------------------------------------
+time: 8.989999999999853 vid: 0 initialize selection
+time: 8.989999999999853 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 8.999999999999853 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 112.08126120351952 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 112.78286484391035 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 131.93029301343302 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,8.989999999999853,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 132.21858903601677 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,8.989999999999853,2']
+----------------------------------------------------------------------------------------------------
+time: 9.209999999999848 vid: 0 initialize selection
+time: 9.209999999999848 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 9.219999999999848 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 110.84089628896537 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 111.565318904349 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 131.33102408963268 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,9.209999999999848,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 131.63934500870215 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,9.209999999999848,2']
+----------------------------------------------------------------------------------------------------
+time: 9.429999999999843 vid: 0 initialize selection
+time: 9.429999999999843 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 9.439999999999843 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 109.57161065022478 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 110.31893624511976 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 130.70205604414804 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,9.429999999999843,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 131.03127522418663 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,9.429999999999843,2']
+----------------------------------------------------------------------------------------------------
+time: 9.649999999999839 vid: 0 initialize selection
+time: 9.649999999999839 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 9.659999999999838 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 108.27278186070474 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 109.04486128120047 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 130.04375825287914 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,9.649999999999839,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 130.3935180805298 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,9.649999999999839,2']
+----------------------------------------------------------------------------------------------------
+time: 9.869999999999834 vid: 0 initialize selection
+time: 9.869999999999834 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 9.879999999999834 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 106.9432235742288 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 107.74357273381753 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 129.35393128174292 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,9.869999999999834,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 129.72627796734318 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,9.869999999999834,2']
+----------------------------------------------------------------------------------------------------
+time: 10.08999999999983 vid: 0 initialize selection
+time: 10.08999999999983 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 10.09999999999983 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 105.5844758357457 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 106.41183430403194 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 128.632951214802 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,10.08999999999983,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 129.0307773909066 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,10.08999999999983,2']
+----------------------------------------------------------------------------------------------------
+time: 10.309999999999825 vid: 0 initialize selection
+time: 10.309999999999825 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 10.319999999999824 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 104.19640482124703 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 105.05085475425165 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 127.88166377380173 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,10.309999999999825,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 128.3056638060582 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,10.309999999999825,2']
+----------------------------------------------------------------------------------------------------
+time: 10.52999999999982 vid: 0 initialize selection
+time: 10.52999999999982 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 10.53999999999982 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 102.7819334793144 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 103.66060023832742 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 127.09950382106149 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,10.52999999999982,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 127.55130095750451 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,10.52999999999982,2']
+----------------------------------------------------------------------------------------------------
+time: 10.749999999999815 vid: 0 initialize selection
+time: 10.749999999999815 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 10.759999999999815 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 101.3375891533859 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 102.24024667110103 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 126.28736482627559 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,10.749999999999815,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 126.7673885336581 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,10.749999999999815,2']
+----------------------------------------------------------------------------------------------------
+time: 10.96999999999981 vid: 0 initialize selection
+time: 10.96999999999981 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 10.97999999999981 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 99.86528245826702 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 100.79062306080984 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 125.44714375773762 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,10.96999999999981,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 125.95380298932486 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,10.96999999999981,2']
+----------------------------------------------------------------------------------------------------
+time: 11.189999999999806 vid: 0 initialize selection
+time: 11.189999999999806 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 11.199999999999806 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 98.36517746384341 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 99.31107097148183 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 124.57772414346357 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,11.189999999999806,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 125.11077601142775 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,11.189999999999806,2']
+----------------------------------------------------------------------------------------------------
+time: 11.409999999999801 vid: 0 initialize selection
+time: 11.409999999999801 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 11.419999999999801 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 96.8364819072246 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 97.80303156384474 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 123.67882062953633 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,11.409999999999801,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 124.23958884895865 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,11.409999999999801,2']
+----------------------------------------------------------------------------------------------------
+time: 11.629999999999797 vid: 0 initialize selection
+time: 11.629999999999797 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 11.639999999999796 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 95.27862511387909 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 96.26583186022228 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 122.75146287173584 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,11.629999999999797,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 123.34043663182568 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,11.629999999999797,2']
+----------------------------------------------------------------------------------------------------
+time: 11.849999999999792 vid: 0 initialize selection
+time: 11.849999999999792 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 11.859999999999792 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 93.69112681762515 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 94.69962339953295 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 121.79575834141622 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,11.849999999999792,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 122.41272396032643 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,11.849999999999792,2']
+----------------------------------------------------------------------------------------------------
+time: 12.069999999999787 vid: 0 initialize selection
+time: 12.069999999999787 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 12.079999999999787 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 92.07258420999501 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 93.10593287366316 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 120.81149907365273 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,12.069999999999787,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 121.45752964275343 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,12.069999999999787,2']
+----------------------------------------------------------------------------------------------------
+time: 12.289999999999782 vid: 0 initialize selection
+time: 12.289999999999782 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 12.299999999999782 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 90.42456201527827 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 91.4826821553111 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 119.7978582370622 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,12.289999999999782,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 120.47426255912322 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,12.289999999999782,2']
+----------------------------------------------------------------------------------------------------
+time: 12.509999999999778 vid: 0 initialize selection
+time: 12.509999999999778 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 12.519999999999778 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 88.74771609938995 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 89.82887314830833 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 118.75533690484698 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,12.509999999999778,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 119.46288672002613 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,12.509999999999778,2']
+----------------------------------------------------------------------------------------------------
+time: 12.729999999999773 vid: 0 initialize selection
+time: 12.729999999999773 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 12.739999999999773 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 87.04074349585497 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 88.1463759704225 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 117.68630033987131 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,12.729999999999773,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 118.4223390123652 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,12.729999999999773,2']
+----------------------------------------------------------------------------------------------------
+time: 12.949999999999768 vid: 0 initialize selection
+time: 12.949999999999768 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 12.959999999999768 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 85.30485021528528 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 86.43437878359967 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 116.5890815811132 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,12.949999999999768,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 117.35204680714696 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,12.949999999999768,2']
+----------------------------------------------------------------------------------------------------
+time: 13.169999999999764 vid: 0 initialize selection
+time: 13.169999999999764 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 13.179999999999763 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 83.53894405520401 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 84.69334480377985 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 115.46291920972561 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,13.169999999999764,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 116.25326154054127 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,13.169999999999764,2']
+----------------------------------------------------------------------------------------------------
+time: 13.389999999999759 vid: 0 initialize selection
+time: 13.389999999999759 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 13.399999999999759 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 81.74476169818165 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 82.92383272957434 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 114.30593503594766 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,13.389999999999759,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 115.12443620481001 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,13.389999999999759,2']
+----------------------------------------------------------------------------------------------------
+time: 13.609999999999754 vid: 0 initialize selection
+time: 13.609999999999754 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 13.619999999999754 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 79.92273687756861 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 81.12508056441374 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 113.11978161331413 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,13.609999999999754,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 113.96569027390791 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,13.609999999999754,2']
+----------------------------------------------------------------------------------------------------
+time: 13.82999999999975 vid: 0 initialize selection
+time: 13.82999999999975 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 13.83999999999975 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 78.07103063387655 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 79.29695723855144 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 111.90395005439575 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,13.82999999999975,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 112.77827791153778 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,13.82999999999975,2']
+----------------------------------------------------------------------------------------------------
+time: 14.049999999999745 vid: 0 initialize selection
+time: 14.049999999999745 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 14.059999999999745 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 76.18972401532959 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 77.44005552237567 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 110.65839237904663 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,14.049999999999745,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 111.56142675463511 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,14.049999999999745,2']
+----------------------------------------------------------------------------------------------------
+time: 14.26999999999974 vid: 0 initialize selection
+time: 14.26999999999974 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 14.27999999999974 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 74.2795376693168 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 75.55340860530242 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 109.38423916794133 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,14.26999999999974,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 110.31453966454114 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,14.26999999999974,2']
+----------------------------------------------------------------------------------------------------
+time: 14.489999999999736 vid: 0 initialize selection
+time: 14.489999999999736 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 14.499999999999735 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 72.33903557419573 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 73.63704270534467 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 108.08200545232432 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,14.489999999999736,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 109.03813286817739 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,14.489999999999736,2']
+----------------------------------------------------------------------------------------------------
+time: 14.70999999999973 vid: 0 initialize selection
+time: 14.70999999999973 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 14.71999999999973 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 70.37090358683321 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 71.6897086173145 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 106.75038051728556 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,14.70999999999973,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 107.73466482717185 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,14.70999999999973,2']
+----------------------------------------------------------------------------------------------------
+time: 14.929999999999726 vid: 0 initialize selection
+time: 14.929999999999726 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 14.939999999999726 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 68.3733888395925 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 69.71234806219584 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 105.38886001314566 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,14.929999999999726,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 106.40295385718235 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,14.929999999999726,2']
+----------------------------------------------------------------------------------------------------
+time: 15.149999999999721 vid: 0 initialize selection
+time: 15.149999999999721 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 15.159999999999721 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 66.34464092052575 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 67.7071312215497 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 103.99767585249418 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,15.149999999999721,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 105.04172942088778 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,15.149999999999721,2']
+----------------------------------------------------------------------------------------------------
+time: 15.369999999999717 vid: 0 initialize selection
+time: 15.369999999999717 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 15.379999999999717 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 64.28589011491611 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 65.67282382825846 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 102.57549495947742 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,15.369999999999717,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 103.6510178018577 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,15.369999999999717,2']
+----------------------------------------------------------------------------------------------------
+time: 15.589999999999712 vid: 0 initialize selection
+time: 15.589999999999712 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 15.599999999999712 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 62.19861882238682 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 63.60910932674399 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 101.12383545527052 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,15.589999999999712,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 102.23269508764983 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,15.589999999999712,2']
+----------------------------------------------------------------------------------------------------
+time: 15.809999999999707 vid: 0 initialize selection
+time: 15.809999999999707 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 15.819999999999707 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 60.081664865181864 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 61.51556254234279 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 99.64240229470764 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,15.809999999999707,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 100.78537723141226 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,15.809999999999707,2']
+----------------------------------------------------------------------------------------------------
+time: 16.029999999999706 vid: 0 initialize selection
+time: 16.029999999999706 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 16.039999999999708 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 57.93465213540725 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 59.39458223701335 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 98.13295459687895 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,16.029999999999706,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 99.30802781851217 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,16.029999999999706,2']
+----------------------------------------------------------------------------------------------------
+time: 16.24999999999974 vid: 0 initialize selection
+time: 16.24999999999974 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 16.259999999999742 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 55.75725643092407 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 57.24546709201117 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 96.59500908816753 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,16.24999999999974,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 97.80242210233826 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,16.24999999999974,2']
+----------------------------------------------------------------------------------------------------
+time: 16.469999999999775 vid: 0 initialize selection
+time: 16.469999999999775 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 16.479999999999777 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 53.550337340120464 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 55.06628412924847 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 95.02764540206164 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,16.469999999999775,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 96.26984844823465 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,16.469999999999775,2']
+----------------------------------------------------------------------------------------------------
+time: 16.68999999999981 vid: 0 initialize selection
+time: 16.68999999999981 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 16.69999999999981 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 51.31443769167244 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 52.857916278076104 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 93.43165546655406 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,16.68999999999981,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 94.70915651631191 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,16.68999999999981,2']
+----------------------------------------------------------------------------------------------------
+time: 16.909999999999844 vid: 0 initialize selection
+time: 16.909999999999844 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 16.919999999999845 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 49.04950622315711 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 50.61949337272024 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 91.80784097164518 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,16.909999999999844,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 93.11856005359914 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,16.909999999999844,2']
+----------------------------------------------------------------------------------------------------
+time: 17.129999999999878 vid: 0 initialize selection
+time: 17.129999999999878 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 17.13999999999988 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 46.754352465976694 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 48.351479743648326 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 90.15654838605585 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,17.129999999999878,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 91.49847960275346 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,17.129999999999878,2']
+----------------------------------------------------------------------------------------------------
+time: 17.349999999999913 vid: 0 initialize selection
+time: 17.349999999999913 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 17.359999999999914 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 44.42894679507742 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 46.05460874714231 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 88.47718974481063 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,17.349999999999913,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 89.84884163439314 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,17.349999999999913,2']
+----------------------------------------------------------------------------------------------------
+time: 17.569999999999947 vid: 0 initialize selection
+time: 17.569999999999947 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 17.57999999999995 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 42.07372970085622 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 43.729336752608944 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 86.76884835462906 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,17.569999999999947,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 88.16913289023617 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,17.569999999999947,2']
+----------------------------------------------------------------------------------------------------
+time: 17.78999999999998 vid: 0 initialize selection
+time: 17.78999999999998 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 17.799999999999983 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 39.69081231240513 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 41.37469439263252 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 85.03249944777234 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,17.78999999999998,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 86.4617553003798 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,17.78999999999998,2']
+----------------------------------------------------------------------------------------------------
+time: 18.010000000000016 vid: 0 initialize selection
+time: 18.010000000000016 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 18.020000000000017 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 37.279513138263866 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 38.98999192992896 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 83.26889736881087 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,18.010000000000016,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 84.72687645852844 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,18.010000000000016,2']
+----------------------------------------------------------------------------------------------------
+time: 18.23000000000005 vid: 0 initialize selection
+time: 18.23000000000005 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 18.24000000000005 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 34.83972763043455 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 36.575892776933316 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 81.47686128277721 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,18.23000000000005,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 82.96257701926288 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,18.23000000000005,2']
+----------------------------------------------------------------------------------------------------
+time: 18.450000000000085 vid: 0 initialize selection
+time: 18.450000000000085 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 18.460000000000086 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 32.37088996020658 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 34.13329009459754 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 79.65570370230948 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,18.450000000000085,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 81.16954189332239 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,18.450000000000085,2']
+----------------------------------------------------------------------------------------------------
+time: 18.67000000000012 vid: 0 initialize selection
+time: 18.67000000000012 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 18.68000000000012 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 29.87266031668598 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 31.666706517518577 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 77.80638351074376 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,18.67000000000012,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 79.34858837096874 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,18.67000000000012,2']
+----------------------------------------------------------------------------------------------------
+time: 18.890000000000153 vid: 0 initialize selection
+time: 18.890000000000153 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 18.900000000000155 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 27.34253413075382 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 29.197516856097096 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 75.92785175865231 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,18.890000000000153,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 77.49768594532432 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,18.890000000000153,2']
+----------------------------------------------------------------------------------------------------
+time: 19.110000000000188 vid: 0 initialize selection
+time: 19.110000000000188 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 19.12000000000019 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 24.784770252791347 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 26.728371699820954 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 74.02075824935325 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,19.110000000000188,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 75.61773581974575 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,19.110000000000188,2']
+----------------------------------------------------------------------------------------------------
+time: 19.330000000000222 vid: 0 initialize selection
+time: 19.330000000000222 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 19.340000000000224 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 22.201271830921257 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 24.259275497144273 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 72.08485467250748 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,19.330000000000222,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 73.70902047130448 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,19.330000000000222,2']
+----------------------------------------------------------------------------------------------------
+time: 19.550000000000257 vid: 0 initialize selection
+time: 19.550000000000257 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 19.560000000000258 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 19.610909448846314 connected_list: 1
+leader: -1
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 21.79007746332782 connected_list: 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 70.1199820149013 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,19.550000000000257,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 71.77198314334859 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,19.550000000000257,2']
+----------------------------------------------------------------------------------------------------
+time: 19.77000000000029 vid: 0 initialize selection
+time: 19.77000000000029 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 19.780000000000292 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 17.020515772636614 connected_list: 2 1
+leader: -1
+curr_msg_buffer: ['2,19.77000000000029,2']
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 19.320879922230958 connected_list: 0 3
+leader: -1
+curr_msg_buffer: ['2,19.77000000000029,0']
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 68.1271533142036 connected_list: 0
+leader: -1
+curr_msg_buffer: ['2,19.77000000000029,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 69.80658874968559 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,19.77000000000029,2']
+----------------------------------------------------------------------------------------------------
+time: 19.780000000000292 vid: 2 respond to 0
+----------------------------------------------------------------------------------------------------
+time: 19.790000000000294 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 16.902790865270603 connected_list: 2 1
+leader: -1
+curr_msg_buffer: ['3,0,2,north-south,19.320879922230958']
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 19.208633752447284 connected_list: 0 3
+leader: -1
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 68.03588106431404 connected_list: 0
+leader: -1
+curr_msg_buffer: []
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 69.7165463293364 connected_list: 2
+leader: -1
+curr_msg_buffer: ['3,0,2,north-south,19.320879922230958']
+----------------------------------------------------------------------------------------------------
+time: 19.790000000000294 vid: 0 select 0 as the leader
+----------------------------------------------------------------------------------------------------
+time: 19.800000000000296 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 16.785054113473734 connected_list: 2 1
+leader: 0
+curr_msg_buffer: []
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 19.09641602601414 connected_list: 0 3
+leader: -1
+curr_msg_buffer: ['1,19.790000000000294,0']
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 67.94453244378536 connected_list: 0
+leader: -1
+curr_msg_buffer: ['1,19.790000000000294,0']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 69.62645467007576 connected_list: 2
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 20.000000000000327 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 20.01000000000033 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 14.383589180520516 connected_list: 2 1
+leader: 0
+curr_msg_buffer: ['2,20.000000000000327,2']
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 16.73946921250625 connected_list: 0 3
+leader: 0
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 66.01152536461129 connected_list: 0
+leader: -1
+curr_msg_buffer: []
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 67.72027973859065 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,20.000000000000327,2']
+----------------------------------------------------------------------------------------------------
+time: 20.22000000000036 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 20.230000000000363 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 12.078157902003056 connected_list: 2 1
+leader: 0
+curr_msg_buffer: ['2,20.22000000000036,2']
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 14.270398924889292 connected_list: 0 3
+leader: 0
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 63.956253723467 connected_list: 0
+leader: -1
+curr_msg_buffer: []
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 65.69561171533735 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,20.22000000000036,2']
+----------------------------------------------------------------------------------------------------
+time: 20.440000000000396 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 20.450000000000397 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 9.990469758161339 connected_list: 2 1
+leader: 0
+curr_msg_buffer: ['2,20.440000000000396,2']
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 11.801251507445556 connected_list: 0 3
+leader: 0
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 61.87174891871126 connected_list: 0
+leader: -1
+curr_msg_buffer: []
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 63.6413177220054 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,20.440000000000396,2']
+----------------------------------------------------------------------------------------------------
+time: 20.66000000000043 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 20.67000000000043 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 8.120581614319718 connected_list: 2 1
+leader: 0
+curr_msg_buffer: ['2,20.66000000000043,2']
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 9.332099283930717 connected_list: 0 3
+leader: 0
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 59.75700797504604 connected_list: 0
+leader: -1
+curr_msg_buffer: []
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 61.55956765457897 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,20.66000000000043,2']
+----------------------------------------------------------------------------------------------------
+time: 20.880000000000464 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 20.890000000000466 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 6.468489375380756 connected_list: 2 1
+leader: 0
+curr_msg_buffer: ['2,20.880000000000464,2']
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 6.862962516784819 connected_list: 0 3
+leader: 0
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 57.61332785360834 connected_list: 0
+leader: -1
+curr_msg_buffer: []
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 59.44985797839006 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,20.880000000000464,2']
+----------------------------------------------------------------------------------------------------
+time: 21.1000000000005 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 21.1100000000005 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 5.034178708504186 connected_list: 2 1
+leader: 0
+curr_msg_buffer: ['2,21.1000000000005,2']
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 4.393836030670428 connected_list: 0 3
+leader: 0
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 55.44062328028886 connected_list: 0
+leader: -1
+curr_msg_buffer: []
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 57.3113793014153 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,21.1000000000005,2']
+----------------------------------------------------------------------------------------------------
+time: 21.320000000000533 vid: 2 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 21.330000000000535 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 3.8176536288932255 connected_list: 2 1
+leader: 0
+curr_msg_buffer: ['2,21.320000000000533,2']
+vid: 2 lane: north_in_0 direction: north-south is_group_leader: True position: 1.9246328293540103 connected_list: 0 3
+leader: 0
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 53.23764603859105 connected_list: 0
+leader: -1
+curr_msg_buffer: []
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: False position: 55.14332962347213 connected_list: 2
+leader: -1
+curr_msg_buffer: ['2,21.320000000000533,2']
+----------------------------------------------------------------------------------------------------
+time: 21.700000000000593 vid: 3 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 21.710000000000594 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 2.229343992881695 connected_list: 1
+leader: 0
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 49.36237158762124 connected_list: 0
+leader: -1
+curr_msg_buffer: []
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: True position: 51.33293511911681 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 21.920000000000627 vid: 3 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 21.93000000000063 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 1.6067880520795086 connected_list: 1
+leader: 0
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 47.08030772235004 connected_list: 0
+leader: -1
+curr_msg_buffer: []
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: True position: 49.08781584415175 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 22.14000000000066 vid: 3 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 22.150000000000663 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 1.2020321112772479 connected_list: 1
+leader: 0
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 44.78734429352737 connected_list: 0
+leader: -1
+curr_msg_buffer: []
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: True position: 46.81252633616501 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 22.360000000000696 vid: 3 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 22.370000000000697 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 1.015049197169958 connected_list: 1
+leader: 0
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 42.494307567435015 connected_list: 0
+leader: -1
+curr_msg_buffer: []
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: True position: 44.50787786010456 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 22.58000000000073 vid: 3 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 22.59000000000073 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 1.0010000006077178 connected_list: 1
+leader: 0
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 40.2013486672265 connected_list: 0
+leader: -1
+curr_msg_buffer: []
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: True position: 42.175188346147195 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 22.800000000000765 vid: 3 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 22.810000000000766 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 1.0010000006077178 connected_list: 1
+leader: 0
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 37.90837558622471 connected_list: 0
+leader: -1
+curr_msg_buffer: []
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: True position: 39.81583448732789 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 23.0200000000008 vid: 3 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 23.0300000000008 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 1.0010000006077178 connected_list: 1
+leader: 0
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 35.61541897506061 connected_list: 0
+leader: -1
+curr_msg_buffer: []
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: True position: 37.428029892147435 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 23.240000000000833 vid: 3 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 23.250000000000835 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 1.0010000006077178 connected_list: 1
+leader: 0
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 33.32238965670598 connected_list: 0
+leader: -1
+curr_msg_buffer: []
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: True position: 35.01157664044321 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 23.460000000000868 vid: 3 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 23.47000000000087 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 1.0010000006077178 connected_list: 1
+leader: 0
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 31.029435240987382 connected_list: 0
+leader: -1
+curr_msg_buffer: []
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: True position: 32.56722501682667 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 23.680000000000902 vid: 3 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 23.690000000000904 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 1.0010000006077178 connected_list: 1
+leader: 0
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 28.803786368850197 connected_list: 0
+leader: -1
+curr_msg_buffer: []
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: True position: 30.094624299873956 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 23.900000000000936 vid: 3 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 23.910000000000938 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 1.0010000006077178 connected_list: 1
+leader: 0
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 26.72756148586633 connected_list: 0
+leader: -1
+curr_msg_buffer: []
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: True position: 27.59331454988994 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 24.12000000000097 vid: 3 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 24.130000000000972 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 1.0010000006077178 connected_list: 1
+leader: 0
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 24.797321695698386 connected_list: 0
+leader: -1
+curr_msg_buffer: []
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: True position: 25.06296578638235 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 24.340000000001005 vid: 3 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 24.350000000001007 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 1.0010000006077178 connected_list: 1
+leader: 0
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 23.009702087492684 connected_list: 0
+leader: -1
+curr_msg_buffer: []
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: True position: 22.50458284971215 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 24.56000000000104 vid: 3 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 24.57000000000104 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 1.0010000006077178 connected_list: 1 3
+leader: 0
+curr_msg_buffer: []
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 21.36073421317377 connected_list: 0
+leader: -1
+curr_msg_buffer: []
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: True position: 19.917571731424346 connected_list: 0
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 24.780000000001074 vid: 3 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 24.790000000001076 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 1.0010000006077178 connected_list: 1 3
+leader: 0
+curr_msg_buffer: ['2,24.780000000001074,3']
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 19.846207558224705 connected_list: 0 3
+leader: -1
+curr_msg_buffer: ['2,24.780000000001074,3']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: True position: 17.29933385781129 connected_list: 0 1
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 25.00000000000111 vid: 3 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 25.01000000000111 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 1.0010000006077178 connected_list: 1 3
+leader: 0
+curr_msg_buffer: ['2,25.00000000000111,3']
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 18.461470695248508 connected_list: 0 3
+leader: -1
+curr_msg_buffer: ['2,25.00000000000111,3']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: True position: 14.655718126496424 connected_list: 0 1
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 25.220000000001143 vid: 3 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 25.230000000001144 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 1.0010000006077178 connected_list: 1 3
+leader: 0
+curr_msg_buffer: ['2,25.220000000001143,3']
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 17.201788207507292 connected_list: 0 3
+leader: -1
+curr_msg_buffer: ['2,25.220000000001143,3']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: True position: 12.00992520773275 connected_list: 0 1
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 25.440000000001177 vid: 3 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 25.45000000000118 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 1.0010000006077178 connected_list: 1 3
+leader: 0
+curr_msg_buffer: ['2,25.440000000001177,3']
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 16.061941019384548 connected_list: 0 3
+leader: -1
+curr_msg_buffer: ['2,25.440000000001177,3']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: True position: 9.36408494466994 connected_list: 0 1
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 25.66000000000121 vid: 3 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 25.670000000001213 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 1.0010000006077178 connected_list: 1 3
+leader: 0
+curr_msg_buffer: ['2,25.66000000000121,3']
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 15.036244284750993 connected_list: 0 3
+leader: -1
+curr_msg_buffer: ['2,25.66000000000121,3']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: True position: 6.718190218765955 connected_list: 0 1
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 25.880000000001246 vid: 3 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 25.890000000001248 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 1.0010000006077178 connected_list: 1 3
+leader: 0
+curr_msg_buffer: ['2,25.880000000001246,3']
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 14.118764132010114 connected_list: 0 3
+leader: -1
+curr_msg_buffer: ['2,25.880000000001246,3']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: True position: 4.072345380548256 connected_list: 0 1
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 26.10000000000128 vid: 3 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 26.110000000001282 traffic light: GGgrrrGGgrrr
+vid: 0 lane: west_in_0 direction: east-west is_group_leader: True position: 1.0010000006077178 connected_list: 1 3
+leader: 0
+curr_msg_buffer: ['2,26.10000000000128,3']
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: False position: 13.3033201584839 connected_list: 0 3
+leader: -1
+curr_msg_buffer: ['2,26.10000000000128,3']
+vid: 3 lane: north_in_0 direction: north-south is_group_leader: True position: 1.4265453784371118 connected_list: 0 1
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 46.869999999999244 vid: 1 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 46.87999999999924 traffic light: rrrGGgrrrGGg
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: True position: 7.920646196645805 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 47.0899999999992 vid: 1 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 47.0999999999992 traffic light: rrrGGgrrrGGg
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: True position: 7.739577673281303 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 47.30999999999916 vid: 1 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 47.319999999999155 traffic light: rrrGGgrrrGGg
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: True position: 7.5315574599541435 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 47.52999999999911 vid: 1 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 47.53999999999911 traffic light: rrrGGgrrrGGg
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: True position: 7.296745807868007 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 47.74999999999907 vid: 1 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 47.75999999999907 traffic light: rrrGGgrrrGGg
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: True position: 7.033030603984315 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 47.969999999999025 vid: 1 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 47.97999999999902 traffic light: rrrGGgrrrGGg
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: True position: 6.741183785934965 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 48.18999999999898 vid: 1 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 48.19999999999898 traffic light: rrrGGgrrrGGg
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: True position: 6.421434824407811 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 48.40999999999894 vid: 1 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 48.419999999998936 traffic light: rrrGGgrrrGGg
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: True position: 6.07362050746562 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 48.629999999998894 vid: 1 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 48.63999999999889 traffic light: rrrGGgrrrGGg
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: True position: 5.697691007604874 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 48.84999999999885 vid: 1 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 48.85999999999885 traffic light: rrrGGgrrrGGg
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: True position: 5.292948552071806 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 49.06999999999881 vid: 1 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 49.079999999998805 traffic light: rrrGGgrrrGGg
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: True position: 4.859344803397477 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 49.28999999999876 vid: 1 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 49.29999999999876 traffic light: rrrGGgrrrGGg
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: True position: 4.3974141560349835 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 49.50999999999872 vid: 1 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 49.51999999999872 traffic light: rrrGGgrrrGGg
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: True position: 3.9067302154793424 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 49.729999999998675 vid: 1 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 49.73999999999867 traffic light: rrrGGgrrrGGg
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: True position: 3.387738960958501 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 49.94999999999863 vid: 1 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 49.95999999999863 traffic light: rrrGGgrrrGGg
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: True position: 2.8409255791207215 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 50.16999999999859 vid: 1 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 50.179999999998586 traffic light: rrrGGgrrrGGg
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: True position: 2.265856017342742 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 50.389999999998544 vid: 1 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 50.39999999999854 traffic light: rrrGGgrrrGGg
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: True position: 1.663887517470954 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 50.6099999999985 vid: 1 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 50.6199999999985 traffic light: rrrGGgrrrGGg
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: True position: 1.0341249593389534 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
+time: 50.829999999998456 vid: 1 initialize selection
+----------------------------------------------------------------------------------------------------
+time: 50.839999999998454 traffic light: rrrGGgrrrGGg
+vid: 1 lane: west_in_0 direction: east-west is_group_leader: True position: 0.3742075683828716 connected_list:
+leader: -1
+curr_msg_buffer: []
+----------------------------------------------------------------------------------------------------
