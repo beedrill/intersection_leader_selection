@@ -56,7 +56,7 @@ class RouteManager():
             vehicle.setAttribute('id', str(i))
             vehicle.setAttribute('type', "car")
             vehicle.setAttribute('depart', "0")
-            vehicle.setAttribute('color', "0, 0.5, 0.5")
+            vehicle.setAttribute('color', "1, 1, 0")
             root.appendChild(vehicle)
             route = dom.createElement('route')
             route.setAttribute('edges', "south_in north_out")

@@ -135,6 +135,7 @@ class Vehicle():
     def connected(self, vid):
         v = self.simulator.vehicle_list[vid]
         if self.original_lane == v.original_lane:
+        # if self.direction == v.direction:
             return True
         if self.lane_position <= 20 and v.lane_position <= 20:
             return True
@@ -159,7 +160,8 @@ class Vehicle():
 
     def broadcast(self, msg):
         for vid in self.connected_list:
-            self.simulator.vehicle_list[vid].next_msg_buffer.append(msg)
+            if vid in self.simulator.vehicle_list.keys():
+                self.simulator.vehicle_list[vid].next_msg_buffer.append(msg)
 
     # message type: traffic control message (1), selection initialization message (2), selection response message (3)
     # traffic control message: 1,<time of message>,<id of leader>
@@ -173,8 +175,7 @@ class Vehicle():
         elif self.is_group_leader == True:
             self.group_leader_action()
         # If the vehicle is neither leader nor group leader, it only parses the most recent traffic control message
-        else:
-            a = 1
+        # else:
             # self.non_leader_action()
 
     def leader_action(self):
@@ -194,10 +195,8 @@ class Vehicle():
                 # traci.trafficlight.setRedYellowGreenState("0", "GGGGGGGGGGGG")
                 if self.direction == "east-west":
                     traci.trafficlight.setRedYellowGreenState("0", "rrrGGgrrrGGg")
-                    print("set to rrrGGgrrrGGg")
                 elif self.direction == "north-south":
                     traci.trafficlight.setRedYellowGreenState("0", "GGgrrrGGgrrr")
-                    print("set to GGgrrrGGgrrr")
             else:
                 self.simulator.log.write("time: " + str(self.simulator.time) + " vid: " + str(self.id) + " select " + successive_leader + " as the successive leader\n")
                 self.simulator.should_print = True
@@ -231,6 +230,7 @@ class Vehicle():
                 new_leader = self.choose_new_leader()
                 self.leader = new_leader
                 if new_leader != "-1":
+                    print("new_leader: " + new_leader)
                     self.simulator.log.write("time: " + str(self.simulator.time) + " vid: " + str(self.id) + " select " + new_leader + " as the leader\n")
                     self.simulator.should_print = True  
                     # If the vehicle selects itself as the new leader
