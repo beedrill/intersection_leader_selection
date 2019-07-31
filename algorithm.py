@@ -2,6 +2,7 @@
 # traffic control message: 1,<time of message>,<id of leader>
 # selection initialization message: 2,<time of message>,<id of proposor>
 # selection response message: 3,<id of proposer>,<id of acceptor>,<direction of acceptor>,<position of acceptor>
+# lane position message: 4,<original lane>,<lane position>
 
 import traci
 import re
@@ -21,15 +22,20 @@ class AlgorithmManager():
         self.selection_time = 0                # The time lengtt after a leader selection is initialized
     
     def step(self):
-        self.refresh_is_group_leader()
+        # Determine whether the vehicle is the group leader
+        self.check_position_message()
+        # broadcast lane position message
+        position_message = "4," + self.vehicle.original_lane + "," + str(self.vehicle.lane_position)
+        self.connection_manager.broadcast(position_message)
 
-    def refresh_is_group_leader(self):
-        self.is_group_leader = True
-        for vid in self.simulator.vehicle_list:
-            v = self.simulator.vehicle_list[vid]
-            if self.id != vid and self.vehicle.original_lane == v.original_lane and self.vehicle.lane_position > v.lane_position:
+    def check_position_message(self):
+        position_message_list = self.connection_manager.get_position_message_list()
+        for msg in position_message_list:
+            message_parsed = re.split(",", msg)
+            if self.vehicle.original_lane == message_parsed[1] and self.vehicle.lane_position > float(message_parsed[2]):
                 self.is_group_leader = False
-                break
+                return
+        self.is_group_leader = True
 
     def action(self):
         # If the vehicle is the leader
@@ -93,7 +99,7 @@ class AlgorithmManager():
                 self.silent_time = 0
                 self.is_proposer = False
         else:
-            if len(self.connection_manager.curr_msg_buffer) == 0:
+            if self.connection_manager.get_latest_control_message() == "" and self.connection_manager.get_earliest_initialization_message() == "":
                 self.silent_time += 1
                 # If the silent time is beyond the threshold, initialize a new leader selection.
                 if self.silent_time == self.simulator.silent_time_threshold:

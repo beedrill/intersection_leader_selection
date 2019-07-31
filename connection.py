@@ -8,6 +8,10 @@ class ConnectionManager():
         self.curr_msg_buffer = []
         self.next_msg_buffer = []
         self.latest_control_msg_time = -1.0    # The last time when the vehicle receives a traffic control message
+        self.latest_control_message = ""
+        self.earliest_initialization_message = ""
+        self.response_message_list = []
+        self.position_message_list = []
 
     def bind_simulator(self, sim):
         print("connection bind simulator")
@@ -18,6 +22,7 @@ class ConnectionManager():
         self.get_connected_list()
         self.curr_msg_buffer = self.next_msg_buffer
         self.next_msg_buffer = []
+        self.classify_message()
 
     def connected(self, vid):
         v = self.simulator.vehicle_list[vid]
@@ -37,33 +42,37 @@ class ConnectionManager():
             if self.id != vid and self.connected(vid) == True:
                 self.connected_list.append(vid)
 
-    def get_latest_control_message(self):
-        latest_control_message = ""
+    def classify_message(self):
+        self.latest_control_message = ""
+        self.earliest_initialization_message = ""
+        earliest_selection_start_time = float(self.simulator.time)
+        self.response_message_list = []
+        self.position_message_list = []
         for msg in self.curr_msg_buffer:
             message_parsed = re.split(",", msg)
             if message_parsed[0] == "1":
                 time = float(message_parsed[1])
                 if time > self.latest_control_msg_time:
                     self.latest_control_msg_time = time
-                    latest_control_message = msg
-        return latest_control_message
-
-    def get_earliest_initialization_message(self):
-        earliest_selection_start_time = float(self.simulator.time)
-        earliest_initialization_message = ""
-        for msg in self.curr_msg_buffer:
-            message_parsed = re.split(",", msg)
-            if message_parsed[0] == "2":
+                    self.latest_control_message = msg
+            elif message_parsed[0] == "2":
                 time = float(message_parsed[1])
                 if time < earliest_selection_start_time:
                     earliest_selection_start_time = time
-                    earliest_initialization_message = msg
-        return earliest_initialization_message
+                    self.earliest_initialization_message = msg
+            elif message_parsed[0] == "3":
+                self.response_message_list.append(msg)
+            elif message_parsed[0] == "4":
+                self.position_message_list.append(msg)
+
+    def get_latest_control_message(self):   
+        return self.latest_control_message
+
+    def get_earliest_initialization_message(self):
+        return self.earliest_initialization_message
 
     def get_response_message_list(self):
-        response_message_list = []
-        for msg in self.curr_msg_buffer:
-            message_parsed = re.split(",", msg)
-            if message_parsed[0] == "3":
-                response_message_list.append(msg)
-        return response_message_list
+        return self.response_message_list
+
+    def get_position_message_list(self):
+        return self.position_message_list
