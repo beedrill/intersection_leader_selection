@@ -1,4 +1,13 @@
-import traci
+import os, sys
+try:
+    import traci
+except:
+    if 'SUMO_HOME' in os.environ:
+        tools = os.path.join(os.environ['SUMO_HOME'], 'tools')
+        sys.path.append(tools)
+        import traci
+    else:   
+        sys.exit("please declare environment variable 'SUMO_HOME'")
 import re
 class Simulator():
     def __init__(self, route_manager, algorithm_module, connection_module, map_folder, visual = True):
@@ -6,6 +15,7 @@ class Simulator():
         self.visual = visual
         self.algorithm_module = algorithm_module
         self.connection_module = connection_module
+        self.some_vehicle_arrived = False
         if visual:
             self.sumo_binary = "sumo-gui"
         else:
@@ -37,6 +47,7 @@ class Simulator():
         self.route_manager.step()
         self.maintain_vehicle_list()
         # Refresh parameters.
+        # not very clean, should add pre-step and post-step hook
         for vid in self.vehicle_list:
             self.vehicle_list[vid].get_lane_position()
         for vid in self.vehicle_list:
@@ -56,15 +67,19 @@ class Simulator():
                 v.bind_connection_manager(self.connection_module(v))
                 v.bind_algorithm(self.algorithm_module(v))
         arrived_id_list = traci.simulation.getArrivedIDList()
-        for id in arrived_id_list:
+        for id in arrived_id_list:     
             if id in self.vehicle_list.keys():
+                self.some_vehicle_arrived = True
                 self.vehicle_list.pop(id)
-        for id in list(self.vehicle_list):
-            v = self.vehicle_list[id]
-            if traci.vehicle.getLaneID(id) != v.original_lane:
-                self.vehicle_list.pop(id)
-            if v.algorithm_manager.is_prev_leader == True:
-                self.vehicle_list.pop(id)
+                ##What exactly are these code for???
+        # for id in list(self.vehicle_list):
+        #     v = self.vehicle_list[id]
+            # if traci.vehicle.getLaneID(id) != v.original_lane:
+            #     self.vehicle_list.pop(id)
+            # if v.algorithm_manager.is_prev_leader == True:
+            #     self.vehicle_list.pop(id)
+    def stop(self):
+        traci.close()
 
     def print_vehicle(self):
         for _ in range(100):
@@ -96,6 +111,7 @@ class Vehicle():
         self.id = id
         self.original_lane = traci.vehicle.getLaneID(self.id)
         self.direction = self.get_direction()
+        self.update_lane()
 
     def bind_algorithm(self, algorithm_manager):
         self.algorithm_manager = algorithm_manager    
@@ -112,7 +128,8 @@ class Vehicle():
             return "east-west"
         elif list[0] == "north" or list[0] == "south":
             return "north-south"
-
+    def update_lane(self):
+        self.lane_id = traci.vehicle.getLaneID(self.id)
     #return distance toward the next intersection
     def get_lane_position(self): 
         from_origin = traci.vehicle.getLanePosition(self.id)  

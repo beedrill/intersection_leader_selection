@@ -8,6 +8,7 @@ class RouteManager():
         self.route_configs = route_configs
 
     def bind_simulator(self, sim):
+        print("binding simulator...")
         self.simulator = sim
 
     def init_routes(self):
@@ -64,6 +65,14 @@ class RouteManager():
         with open("simulator/maps/simple/map.rou.xml", 'w', encoding='utf-8') as f:
             dom.writexml(f, addindent='\t', newl='\n', encoding='utf-8')
 
+    def check_terminate(self):
+        #check if the simulation should be terminated
+        if self.simulator.some_vehicle_arrived:
+            return True
+        return False
+
     def step(self):
         # print ("route manager stepped")
-        a = 1
+        if self.check_terminate():
+            print("end")
+            self.simulator.close()

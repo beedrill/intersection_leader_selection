@@ -3,8 +3,16 @@
 # selection initialization message: 2,<time of message>,<id of proposor>
 # selection response message: 3,<id of proposer>,<id of acceptor>,<direction of acceptor>,<position of acceptor>
 # lane position message: 4,<original lane>,<lane position>
-
-import traci
+import os, sys
+try:
+    import traci
+except:
+    if 'SUMO_HOME' in os.environ:
+        tools = os.path.join(os.environ['SUMO_HOME'], 'tools')
+        sys.path.append(tools)
+        import traci
+    else:   
+        sys.exit("please declare environment variable 'SUMO_HOME'")
 import re
 class AlgorithmManager():
     def __init__(self, vehicle):
