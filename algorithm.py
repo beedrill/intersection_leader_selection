@@ -1,11 +1,11 @@
-# message type: traffic control message (1), selection initialization message (2), selection response message (3)
+import traci
+import re
+
+# message type: traffic control message (1), selection initialization message (2), selection response message (3), lane position message (4)
 # traffic control message: 1,<time of message>,<id of leader>
 # selection initialization message: 2,<time of message>,<id of proposor>
 # selection response message: 3,<id of proposer>,<id of acceptor>,<direction of acceptor>,<position of acceptor>
 # lane position message: 4,<original lane>,<lane position>
-
-import traci
-import re
 class AlgorithmManager():
     def __init__(self, vehicle):
         self.vehicle = vehicle
@@ -188,3 +188,72 @@ class AlgorithmManager():
             if self.leader != message_parsed[2]:
                 self.log.write(self.id + " change the leader to " + message_parsed[2] + "\n")
             self.leader = message_parsed[2]
+
+# message type: traffic control message (1)
+# traffic control message: 1,<time of message>,<id of leader>
+class DummyAlgorithmManager():
+    def __init__(self, vehicle):
+        self.vehicle = vehicle
+        self.id = vehicle.id
+        self.simulator = vehicle.simulator
+        self.log = self.simulator.log
+        self.connection_manager = vehicle.connection_manager
+        self.leader = "-1"
+        self.leader_time = 0                   # The time length after a vehicle becomes the leader
+        self.is_prev_leader = False
+        self.is_group_leader = False
+        self.silent_time = 0                   # The time length of no message received
+        self.is_proposer = False               # Whether the vehicle is currently a proposer of a leader selection
+        self.selection_time = 0                # The time lengtt after a leader selection is initialized
+
+    def step(self):
+        # Do nothing
+        pass
+
+    def action(self):
+        # If the vehicle is the leader
+        if self.leader == self.id:
+            self.leader_action()
+        # If the vehicle is not the leader
+        else:
+            self.non_leader_action()
+
+    
+    def leader_action(self):
+        self.leader_check_control_message()
+        # No matter whether itself is still the leader, broadcast the traffic control message.
+        control_message = str(1) + "," + str(self.simulator.time) + "," + self.leader
+        self.connection_manager.broadcast(control_message)
+
+    def non_leader_action(self):
+        self.non_leader_check_control_message()
+        # If there is no new control message and the silent time is beyond the threshold, regard itself as the leader.
+        if self.silent_time == self.simulator.silent_time_threshold:
+            self.leader = self.id
+            control_message = str(1) + "," + str(self.simulator.time) + "," + self.id
+            self.connection_manager.broadcast(control_message)
+
+    # If there is a new control message, regard other as the leader.
+    def leader_check_control_message(self):
+        latest_control_message = self.connection_manager.get_latest_control_message()
+        if latest_control_message != "":
+            message_parsed = re.split(",", latest_control_message)
+            if self.leader != message_parsed[2]:
+                self.log.write(self.id + " change the leader to " + message_parsed[2] + "\n")
+                self.leader = message_parsed[2]
+
+    # If there is a new control message, broadcast it.
+    def non_leader_check_control_message(self):
+        latest_control_message = self.connection_manager.get_latest_control_message()
+        if latest_control_message != "":
+            self.silent_time = 0
+            message_parsed = re.split(",", latest_control_message)
+            if self.leader != message_parsed[2]:
+                self.log.write(self.id + " change the leader to " + message_parsed[2] + "\n")
+                self.leader = message_parsed[2]
+            self.connection_manager.broadcast(latest_control_message)
+            # If the vehicle becomes the new leader
+            if self.leader == self.id:
+                self.leader_time = 0
+        else:
+            self.silent_time += 1
